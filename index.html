@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arah Noja - Bookkeeper & Virtual Assistant</title>
-    <meta name="description" content="Professional bookkeeper and virtual assistant services. QuickBooks expert, financial reporting, and administrative support.">
+    <title>Arah Noja - Virtual Assistant & Bookkeeper</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,128 +13,156 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>Arah Noja</h2>
-                <span>Bookkeeper & VA</span>
+                <span>AN</span>
             </div>
             <ul class="nav-menu">
                 <li><a href="index.html" class="nav-link active">Home</a></li>
                 <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
                 <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun" id="themeIcon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-content">
-                <h1>Professional Bookkeeping & Virtual Assistant Services</h1>
-                <p>I help small businesses and entrepreneurs manage their finances and administrative tasks with precision and care. QuickBooks certified with 8+ years of experience.</p>
-                <div class="hero-buttons">
-                    <a href="services.html" class="btn btn-primary">View Services</a>
-                    <a href="contact.html" class="btn btn-secondary">Get Quote</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=500&h=600&fit=crop" alt="Professional bookkeeper workspace">
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Preview -->
-    <section class="services-preview">
-        <div class="container">
-            <h2>What I Can Do For You</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">📊</div>
-                    <h3>Bookkeeping</h3>
-                    <p>Complete financial record management, transaction categorization, and monthly reconciliations.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">📈</div>
-                    <h3>Financial Reports</h3>
-                    <p>Profit & loss statements, balance sheets, and cash flow reports to track your business performance.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">💼</div>
-                    <h3>Virtual Assistant</h3>
-                    <p>Administrative support, email management, scheduling, and customer service tasks.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🧾</div>
-                    <h3>Tax Preparation</h3>
-                    <p>Organize financial records and prepare documentation for tax season and CPA collaboration.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Me -->
-    <section class="why-choose">
-        <div class="container">
-            <div class="why-content">
-                <div class="why-text">
-                    <h2>Why Choose Me?</h2>
-                    <ul class="benefits-list">
-                        <li>✓ QuickBooks ProAdvisor Certified</li>
-                        <li>✓ 8+ Years of Bookkeeping Experience</li>
-                        <li>✓ Small Business Specialist</li>
-                        <li>✓ Reliable & Detail-Oriented</li>
-                        <li>✓ Affordable Monthly Packages</li>
-                        <li>✓ Quick Response Time</li>
-                    </ul>
-                    <a href="about.html" class="btn btn-primary">Learn More About Me</a>
-                </div>
-                <div class="why-image">
-                    <img src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=500&h=400&fit=crop" alt="Professional workspace">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="testimonials">
-        <div class="container">
-            <h2>What My Clients Say</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <p>"Arah has been managing our books for 2 years. She's incredibly reliable and has helped us save thousands during tax season."</p>
-                    <div class="testimonial-author">
-                        <strong>Mike Chen</strong>
-                        <span>Restaurant Owner</span>
+                <div class="hero-text">
+                    <div class="hero-greeting">
+                        <i class="fas fa-sparkles"></i>
+                        <span>Let's meet!</span>
+                    </div>
+                    <h1 class="hero-name">Arah Noja</h1>
+                    <h2 class="hero-subtitle">Virtual Assistant & Bookkeeper</h2>
+                    <p class="hero-description">
+                        Hi! I'm Arah Noja, a virtual assistant, bookkeeper, and freelancer. I have extensive experience in monthly bank reconciliation, QuickBooks categorization, invoicing, payroll, taxation, billing, and accounts payable/receivable. Additionally, I specialize in web development using NowSite, Video Editing and Lead Gen.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="fas fa-comments"></i>
+                            Let's Talk
+                        </a>
+                        <a href="about.html" class="btn btn-secondary">Learn More</a>
+                        <a href="https://drive.google.com/file/d/10GIEk74IfA9JuneU_RBIgK1Tl9xtWAC0/view?usp=sharing" target="_blank" class="btn btn-resume">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <p>Follow me on:</p>
+                        <div class="social-links">
+                            <a href="mailto:sarvidarah@gmail.com" class="social-icon" title="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="https://facebook.com" target="_blank" class="social-icon" title="Facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" class="social-icon" title="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://instagram.com" target="_blank" class="social-icon" title="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <p>"Professional, efficient, and always available when I need her. Sarah handles all our administrative tasks perfectly."</p>
-                    <div class="testimonial-author">
-                        <strong>Lisa Rodriguez</strong>
-                        <span>E-commerce Business</span>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <p>"Best investment for our growing business. Sarah's financial reports help us make better business decisions."</p>
-                    <div class="testimonial-author">
-                        <strong>David Thompson</strong>
-                        <span>Consulting Firm</span>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-header">
+                            <div class="profile-avatar">
+                                <img src="images/arah-profile.jpg" alt="Arah Noja" class="profile-img">
+                            </div>
+                            <div class="profile-info">
+                                <h3>Arah Noja</h3>
+                                <p>Virtual Assistant & Bookkeeper</p>
+                            </div>
+                        </div>
+                        <div class="profile-details">
+                            <div class="detail-item">
+                                <span class="label">Specialization:</span>
+                                <span class="value">Virtual Assistant & Bookkeeper</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Based in:</span>
+                                <span class="value">P-6 Ampayon, Butuan City</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Education:</span>
+                                <span class="value">BS Agro-Forestry</span>
+                            </div>
+                        </div>
+                        <div class="profile-social">
+                            <a href="mailto:sarvidarah@gmail.com" class="profile-social-icon">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="https://facebook.com" target="_blank" class="profile-social-icon">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" class="profile-social-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://instagram.com" target="_blank" class="profile-social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <a href="contact.html" class="profile-cta">
+                            Let's Work Together!
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta">
+    <!-- Quick Stats Section -->
+    <section class="quick-stats">
         <div class="container">
-            <h2>Ready to Get Your Finances Organized?</h2>
-            <p>Let's discuss how I can help streamline your bookkeeping and administrative tasks.</p>
-            <a href="contact.html" class="btn btn-primary">Get Started Today</a>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Expert Bookkeeper</h3>
+                    <p>QuickBooks & Wave Specialist</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Developer</h3>
+                    <p>NowSite & Frontend Development</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Video Editor</h3>
+                    <p>Canva & Professional Editing</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Lead Generation</h3>
+                    <p>Social Media & Email Marketing</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -142,29 +170,23 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Arah Noja</h3>
-                    <p>Professional Bookkeeper & Virtual Assistant</p>
-                    <p>QuickBooks ProAdvisor Certified</p>
+                <div class="footer-text">
+                    <p>&copy; 2024 Arah Noja. All rights reserved.</p>
                 </div>
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="services.html">Bookkeeping</a></li>
-                        <li><a href="services.html">Financial Reports</a></li>
-                        <li><a href="services.html">Virtual Assistant</a></li>
-                        <li><a href="services.html">Tax Preparation</a></li>
-                    </ul>
+                <div class="footer-social">
+                    <a href="mailto:sarvidarah@gmail.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://facebook.com" target="_blank" class="social-link" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="social-link" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
                 </div>
-                <div class="footer-section">
-                    <h4>Contact</h4>
-                    <p>📧 sarvidarah@gmail.com</p>
-                    <p>📱 (+6390</p>
-                    <p>🕒 Mon-Fri: 9AM-6PM EST</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Arah Noja Bookkeeping Services. All rights reserved.</p>
             </div>
         </div>
     </footer>
