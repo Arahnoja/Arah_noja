@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Arah Noja Bookkeeper & VA</title>
+    <title>About - Arah Noja</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -12,105 +13,124 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>Arah Noja</h2>
-                <span>Bookkeeper & VA</span>
+                <span>AN</span>
             </div>
             <ul class="nav-menu">
                 <li><a href="index.html" class="nav-link">Home</a></li>
                 <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
                 <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun" id="themeIcon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
     </nav>
 
-    <!-- About Hero -->
-    <section class="page-hero">
+    <!-- About Section -->
+    <section class="about-page">
         <div class="container">
-            <h1>About Me</h1>
-            <p>Your trusted partner for bookkeeping and virtual assistant services</p>
-        </div>
-    </section>
-
-    <!-- About Content -->
-    <section class="about-content">
-        <div class="container">
-            <div class="about-grid">
+            <div class="page-header">
+                <h1 class="page-title">About Me</h1>
+                <p class="page-subtitle">Get to know me better</p>
+            </div>
+            
+            <div class="about-content">
                 <div class="about-text">
-                    <h2>Hi, I'm Arah Noja</h2>
-                    <p>With over 4 years of experience in bookkeeping and financial management, I specialize in helping small businesses and entrepreneurs maintain accurate financial records and streamline their administrative processes.</p>
-                    
-                    <p>I discovered my passion for numbers and organization early in my career, and I've been dedicated to helping business owners focus on what they do best while I handle the financial details.</p>
+                    <h2>Professional Virtual Assistant & Bookkeeper</h2>
+                    <p>
+                        Hi! I'm Arah Noja, a dedicated virtual assistant, bookkeeper, and freelancer with extensive experience 
+                        in financial management and digital services. I bring honesty, sincerity, professionalism, and passion 
+                        to every project I undertake.
+                    </p>
+                    <p>
+                        My expertise spans across monthly bank reconciliation, QuickBooks categorization, invoicing, payroll, 
+                        taxation, billing, and accounts payable/receivable management. Additionally, I specialize in web 
+                        development using NowSite, video editing, and lead generation.
+                    </p>
+                    <p>
+                        Currently pursuing a Bachelor of Science in Agro-Forestry at Caraga State University, I combine 
+                        academic knowledge with practical experience to deliver exceptional results for my clients.
+                    </p>
 
-                    <h3>My Mission</h3>
-                    <p>To provide reliable, accurate, and affordable bookkeeping and virtual assistant services that help small businesses thrive. I believe every business deserves professional financial management, regardless of size.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>3+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h4>40+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>100%</h4>
+                            <p>Client Satisfaction</p>
+                        </div>
+                    </div>
+
+                    <div class="resume-download">
+                        <a href="https://drive.google.com/file/d/10GIEk74IfA9JuneU_RBIgK1Tl9xtWAC0/view?usp=sharing" target="_blank" class="btn btn-primary resume-btn">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
                 </div>
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1494790108755-2616c9c0e8e0?w=400&h=500&fit=crop&crop=face" alt="Sarah Johnson - Professional Bookkeeper">
+
+                <div class="about-info">
+                    <div class="info-card">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>Bachelor of Science in Agro-Forestry</h4>
+                            <p>Caraga State University</p>
+                            <span>2023 - 2024</span>
+                        </div>
+                        <div class="education-item">
+                            <h4>Secondary School</h4>
+                            <p>Esperanza National High School</p>
+                            <span>2011 - 2015</span>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Core Skills</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <i class="fas fa-palette"></i>
+                                <span>Web Design</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>Design Thinking</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-drafting-compass"></i>
+                                <span>Wireframe Creation</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>Front End Coding</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-calculator"></i>
+                                <span>Bookkeeping</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span>Ecommerce</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Experience & Qualifications -->
-    <section class="qualifications">
-        <div class="container">
-            <h2>Experience & Qualifications</h2>
-            <div class="qual-grid">
-                <div class="qual-card">
-                    <h3>🎓 Education</h3>
-                    <ul>
-                        <li>Bachelor's in Accounting - Caraga State University</li>
-                        <li>QuickBooks ProAdvisor Certification</li>
-                        <li>Xero Advisor Certification</li>
-                        <li>Continuing Education in Tax Law</li>
-                    </ul>
-                </div>
-                <div class="qual-card">
-                    <h3>💼 Experience</h3>
-                    <ul>
-                        <li>4+ Years Bookkeeping Experience</li>
-                        <li>4+ Years Virtual Assistant Services</li>
-                        <li>50+ Small Businesses Served</li>
-                        <li>Multiple Industry Experience</li>
-                    </ul>
-                </div>
-                <div class="qual-card">
-                    <h3>🛠️ Software Expertise</h3>
-                    <ul>
-                        <li>QuickBooks Online & Desktop</li>
-                        <li>Xero, Wave, FreshBooks</li>
-                        <li>Excel & Google Sheets</li>
-                        <li>Receipt Bank, Hubdoc</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Personal Touch -->
-    <section class="personal-touch">
-        <div class="container">
-            <div class="personal-content">
-                <h2>A Personal Touch</h2>
-                <p>When I'm not crunching numbers, you can find me hiking with my golden retriever Max, trying new recipes, or volunteering at the local animal shelter. I believe in work-life balance and bring that same philosophy to helping my clients achieve their business goals without the stress.</p>
-                
-                <p>I understand that every business is unique, which is why I take the time to learn about your specific needs and tailor my services accordingly. Your success is my success!</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta">
-        <div class="container">
-            <h2>Ready to Work Together?</h2>
-            <p>Let's discuss how I can help organize your finances and support your business growth.</p>
-            <a href="contact.html" class="btn btn-primary">Get In Touch</a>
         </div>
     </section>
 
@@ -118,29 +138,23 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Arah Noja</h3>
-                    <p>Professional Bookkeeper & Virtual Assistant</p>
-                    <p>QuickBooks ProAdvisor Certified</p>
+                <div class="footer-text">
+                    <p>&copy; 2024 Arah Noja. All rights reserved.</p>
                 </div>
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="services.html">Bookkeeping</a></li>
-                        <li><a href="services.html">Financial Reports</a></li>
-                        <li><a href="services.html">Virtual Assistant</a></li>
-                        <li><a href="services.html">Tax Preparation</a></li>
-                    </ul>
+                <div class="footer-social">
+                    <a href="mailto:sarvidarah@gmail.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://facebook.com" target="_blank" class="social-link" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="social-link" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
                 </div>
-                <div class="footer-section">
-                    <h4>Contact</h4>
-                    <p>📧 sarvidarah@gmail.com</p>
-                    <p>📱 (+639</p>
-                    <p>🕒 Mon-Fri: 9AM-6PM EST</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Arah Noja Bookkeeping Services. All rights reserved.</p>
             </div>
         </div>
     </footer>
